@@ -1,0 +1,25 @@
+h1 {
+    font-family: "Crimson Text", "Times New Roman", serif;
+    background-color: #F2FFFC;
+    font-size: 120%;
+    color:orange;
+    color: inherit;
+    width: 300px;
+}
+h2 {
+    font-size: 110%;
+    color: blue;
+    
+}
+image{
+    float: left;
+    
+
+}
+.noticia{ 
+    border: solid 2px;
+}
+text {
+    float: right;
+    margin-right: 400px; 
+}

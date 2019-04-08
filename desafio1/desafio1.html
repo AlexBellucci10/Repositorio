@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro</title>
+</head>
+
+<body>
+        <form name="frmcadastro" method="post" action="processar.html">
+        <fieldset>
+            <legend>Dados Pessoais.</legend>
+
+            Nome: <input type="text" name="nome" required placeholder="Digite seu Usuário." /> <br />
+            Endereço: <input type="text" name="endereço" placeholder="Digite seu endereço." /> <br />
+            Cidade: <input type="text" name="cidade" placeholder="Digite sua Cidade." /> <br />
+            Selecione seu Estado:
+
+            <select>
+                <option value="AC">AC</option>
+                <option value="AL">AL</option>
+                <option value="AP">AP</option>
+                <option value="AM">AM</option>
+                <option value="BA">BA</option>
+                <option value="CE">CE</option>
+                <option value="DF">DF</option>
+                <option value="ES">ES</option>
+                <option value="GO">GO</option>
+                <option value="MA">MA</option>
+                <option value="MT">MT</option>
+                <option value="MS">MS</option>
+                <option value="MG">MG</option>
+                <option value="PA">PA</option>
+                <option value="PB">PB</option>
+                <option value="PR">PR</option>
+                <option value="PE">PE</option>
+                <option value="PI">PI</option>
+                <option value="RJ">RJ</option>
+                <option value="RN">RN</option>
+                <option value="RS">RS</option>
+                <option value="RO">RO</option>
+                <option value="RR">RR</option>
+                <option value="SC">SC</option>
+                <option value="SP">SP</option>
+                <option value="SE">SE</option>
+                <option value="TO">TO</option>
+
+            </select>
+        </fieldset>
+        <br />
+        <fieldset>
+            <legend>Dados profissionais</legend>
+
+            Natureza do Cargo:
+            <br />
+            <input type="radio" id="gerencia" name="cargo" value="g" />
+            <label for="gerencia">Gerência</label> 
+
+            <input type="radio" id="financeiro" name="cargo" value="f" />
+            <label for="financeiro">Financeiro</label>
+
+            <input type="radio" id="recepcao" name="cargo" value="r" />
+            <label for="recepcao">Recepção</label> 
+
+            <input type="radio" id="administrativo" name="cargo" value="a" />
+            <label for="administrativo">Administrativo</label> 
+
+            <input type="radio" id="juridico" name="cargo" value="j" />
+            <label for="juridico">Jurídico</label>
+            <br />
+            <br />
+
+            Área de Interesse:<br />
+
+
+            <input type="checkbox" name="prefs" value="c" />Computação 
+            <input type="checkbox" name="prefs" value="b" />Biologia
+            <input type="checkbox" name="prefs" value="m" />Meio Ambiente
+            <input type="checkbox" name="prefs" value="e" />Engenharia
+            <input type="checkbox" name="prefs" value="h" />História
+            <br />
+            <br />
+            Mini-curriculo:
+            <form>
+                <textarea rows="9" cols="70" placeholder="Digite suas sugestões."></textarea>
+
+            </form>
+        </fieldset>
+
+
+
+
+        <br />
+        <input type="submit" value="Enviar" />
+        <input type="reset" value="Limpar"/>
+
+
+    </form>
+
+</body>
+
+</html>
