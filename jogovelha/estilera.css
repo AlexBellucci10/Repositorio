@@ -1,0 +1,21 @@
+.caixa {
+    width:150px;
+    height:100%;
+    font-size:100px;
+    color:black;
+    float: left;
+    border-right: solid 1px;
+    text-align: center;
+}
+#caixao {
+    width: 453px;
+    height: 450px;
+    border: solid 3px;
+    background: orangered;
+    margin-left: 3px;
+}
+
+.linha {
+    height: 150px;
+    border-bottom: solid 1px;
+}

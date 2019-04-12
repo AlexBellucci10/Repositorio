@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" type="text/css" href="estilera.css">
+    <script type="text/javascript" src="jogo.js"></script>
+
+</head>
+
+<body>
+    <div id="caixao">
+        <div class="linha">
+            <div class="caixa" id="caixinha1" onclick="joga(this.id);verif();"></div>
+            <div class="caixa" id="caixinha2" onclick="joga(this.id);verif();"></div>
+            <div class="caixa" id="caixinha3" onclick="joga(this.id);verif();"></div>
+        </div>
+
+        <div class="linha">
+            <div class="caixa" id="caixinha4" onclick="joga(this.id);verif();"></div>
+            <div class="caixa" id="caixinha5" onclick="joga(this.id);verif();"></div>
+            <div class="caixa" id="caixinha6" onclick="joga(this.id);verif();"></div>
+        </div>
+
+        <div class="linha">
+            <div class="caixa" id="caixinha7" onclick="joga(this.id);verif();"></div>
+            <div class="caixa" id="caixinha8" onclick="joga(this.id);verif();"></div>
+            <div class="caixa" id="caixinha9" onclick="joga(this.id);verif();"></div>
+        </div>
+    </div>
+    <br><input type="button" name="limpar" value="Novo jogo" onclick="novo();" />
+</body>
+
+</html>
